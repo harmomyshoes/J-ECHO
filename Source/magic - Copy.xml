@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<magic>
+  <Styles>
+    <Style name="default">
+      <Nodes/>
+      <Classes>
+        <plot-view border="2" background-color="black" border-color="silver" display="contents"/>
+        <nomargin margin="0" padding="0" border="0"/>
+        <group margin="5" padding="5" border="2" flex-direction="column"/>
+        <transparent background-color="transparentblack"/>
+      </Classes>
+      <Types>
+        <Slider border="0" slider-textbox="textbox-below"/>
+        <ToggleButton border="0" max-height="50" caption-size="0" text="Active"/>
+        <TextButton border="0" max-height="50" caption-size="0"/>
+        <ComboBox border="0" max-height="50" caption-size="0"/>
+        <Plot border="0" margin="0" padding="0" background-color="00000000"
+              radius="0"/>
+        <XYDragComponent border="0" margin="0" padding="0" background-color="00000000"
+                         radius="0"/>
+      </Types>
+      <Palettes>
+        <default/>
+      </Palettes>
+    </Style>
+  </Styles>
+  <View background-color="3D3A37" width="" height="" min-width=""
+        max-width="" min-height="" max-height="" resizable="1" tooltip-background="3D3A37"
+        border-color="3D3A37" tab-color="3D3A37" lookAndFeel="FoleysFinest"
+        scroll-mode="no-scroll" resize-corner="1">
+    <View background-color="CFB896">
+      <Slider id="Feedback" background-color="F8E3C5" slider-type="rotary"
+              rotary-fill="FF000000" rotary-outline="FFFFFFFF"/>
+    </View>
+    <View background-color="CFB896" border-color="CFB896">
+      <Slider background-color="F8E3C5" rotary-fill="FF000000" rotary-outline="FFFFFFFF"/>
+    </View>
+    <View pos-x="38.7685%" pos-y="-3.96825%" pos-width="20.0684%" pos-height="100%"
+          radius="0" border-color="" background-color="3D3A37"/>
+    <View border-color="CFB896" background-color="CFB896">
+      <Slider border-color="" background-color="F8E3C5" flex-grow="1.0" slider-type="rotary"
+              rotary-fill="FF000000" rotary-outline="FFFFFFFF"/>
+    </View>
+    <View border-color="CFB896" background-color="CFB896">
+      <Slider slider-type="rotary" rotary-fill="FF000000" rotary-outline="FFFFFFFF"
+              background-color="F8E3C5"/>
+    </View>
+  </View>
+</magic>
+ 
