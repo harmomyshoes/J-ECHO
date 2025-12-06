@@ -2,21 +2,27 @@
 
 <JUCERPROJECT id="E15Xt2" name="JECHO" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="XIE"
-              pluginAAXCategory="16" pluginVST3Category="Delay">
+              pluginAAXCategory="16" pluginVST3Category="Delay" version="1.2">
   <MAINGROUP id="HnrkeZ" name="JECHO">
     <GROUP id="{812FAA0E-0DD5-9B36-4789-99A0D04C0C53}" name="Source">
+      <FILE id="RLslEC" name="JuceDelayLine.h" compile="0" resource="0" file="Source/JuceDelayLine.h"/>
       <FILE id="XIyWLa" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="brvNwe" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
     </GROUP>
     <GROUP id="{B94A7FD6-B941-53E7-0C5A-BE31755599F6}" name="Res">
+      <FILE id="wH82Lc" name="volume.png" compile="0" resource="1" file="Source/Pic/volume.png"/>
+      <FILE id="s3fG2B" name="multi_tap.png" compile="0" resource="1" file="Source/Pic/multi_tap.png"/>
+      <FILE id="Qahy6m" name="feedback.png" compile="0" resource="1" file="Source/Pic/feedback.png"/>
+      <FILE id="xzMvOT" name="long_t.png" compile="0" resource="1" file="Source/Pic/long_t.png"/>
+      <FILE id="W0G7wY" name="mix.png" compile="0" resource="1" file="Source/Pic/mix.png"/>
+      <FILE id="ahMXjQ" name="short_t.png" compile="0" resource="1" file="Source/Pic/short_t.png"/>
       <FILE id="lH6PW9" name="Brand_84px.png" compile="0" resource="1" file="Source/Pic/Brand_84px.png"/>
       <FILE id="uDPPdJ" name="Brand_96px.png" compile="0" resource="1" file="Source/Pic/Brand_96px.png"/>
       <FILE id="cPbClt" name="Brand_120px.png" compile="0" resource="1" file="Source/Pic/Brand_120px.png"/>
       <FILE id="Brhrof" name="LOGO_With_Vase.PNG" compile="0" resource="1"
             file="Source/Pic/LOGO_With_Vase.PNG"/>
-      <FILE id="tnvnQh" name="Theme9.jpg" compile="0" resource="1" file="Source/Pic/Theme9.jpg"/>
       <FILE id="sYJ31u" name="Brand.png" compile="0" resource="1" file="Source/Pic/Brand.png"/>
       <FILE id="zuJcDx" name="magic.xml" compile="0" resource="1" file="Source/magic.xml"/>
     </GROUP>
@@ -29,6 +35,8 @@
     <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
             useGlobalPath="1"/>
     <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
@@ -60,9 +68,10 @@
         <MODULEPATH id="juce_graphics" path="../../modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../modules"/>
-        <MODULEPATH id="foleys_gui_magic" path="../../../foleys_gui_magic/modules"/>
         <MODULEPATH id="juce_dsp" path="../../modules"/>
         <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../modules"/>
+        <MODULEPATH id="foleys_gui_magic" path="../../../../foleys_gui_magic/modules"/>
       </MODULEPATHS>
     </VS2022>
   </EXPORTFORMATS>
